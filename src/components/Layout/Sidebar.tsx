@@ -2,6 +2,12 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useApp } from '../../context/AppContext';
 
+// وظیفه: نوار کناری برای ناوبری
+// قابلیت‌ها:
+// - نمایش منوی navigation
+// - نشان دادن پیشرفت کاربر
+// - آمار سریع
+
 const Sidebar: React.FC = () => {
   const location = useLocation();
   const { state } = useApp();

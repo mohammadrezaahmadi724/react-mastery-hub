@@ -1,6 +1,13 @@
 import React from 'react';
 import { useApp } from '../../context/AppContext';
 
+// وظیفه: نوار بالایی برنامه
+// قابلیت‌ها:
+// - تغییر تم (تاریک/روشن)
+// - تغییر زبان
+// - نمایش اطلاعات کاربر
+// - دکمه ورود/خروج
+
 const Header: React.FC = () => {
   const { state, dispatch } = useApp();
 

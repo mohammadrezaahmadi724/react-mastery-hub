@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { Project } from '../types';
 
+// وظیفه: مدیریت پروژه‌های تمرینی
+// قابلیت‌ها:
+// - افزودن پروژه جدید
+// - ردیابی پیشرفت
+// - راهنمای step-by-step
+
 const Projects: React.FC = () => {
   const { state, dispatch } = useApp();
   const [projects, setProjects] = useState<Project[]>([

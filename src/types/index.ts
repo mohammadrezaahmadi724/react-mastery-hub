@@ -1,9 +1,21 @@
+import { ReactNode } from 'react';
+
+// وظیفه: تعریف انواع TypeScript
+// انواع تعریف شده:
+// - User: اطلاعات کاربر
+// - Project: داده‌های پروژه
+// - Lesson: اطلاعات درس
+// - AppState: state کلی برنامه
+
+export type { ReactNode };
 export interface User {
   id: number;
   name: string;
   email: string;
   avatar: string;
 }
+
+
 
 export interface Project {
   id: number;
@@ -28,3 +40,4 @@ export interface AppState {
   language: 'fa' | 'en';
   completedLessons: number[];
 }
+

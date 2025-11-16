@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 
+// وظیفه: آموزش مدیریت state در React
+// مثال‌ها:
+// - state شیء (مدیریت کاربر)
+// - state آرایه (لیست آیتم‌ها)
+// - functional updates (شمارنده)
+
 const StateExamples: React.FC = () => {
   const [user, setUser] = useState({ name: '', email: '', age: 0 });
   const [items, setItems] = useState<string[]>([]);

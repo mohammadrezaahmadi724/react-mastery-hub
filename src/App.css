@@ -1,4 +1,11 @@
 /* Reset و متغیرها */
+/* وظایف:
+ * - تعریف CSS variables برای تم
+ * - استایل‌های کلی layout
+ * - responsive design
+ * - animations و transitions
+ */
+ 
 :root {
   --primary-color: #3498db;
   --secondary-color: #2ecc71;

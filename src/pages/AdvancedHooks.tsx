@@ -1,6 +1,13 @@
 import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { useApp } from '../context/AppContext';
 
+// وظیفه: آموزش هوک‌های پیشرفته
+// هوک‌های پوشش داده شده:
+// - useEffect
+// - useMemo
+// - useCallback
+// - useRef
+
 const AdvancedHooks: React.FC = () => {
   const { dispatch } = useApp();
   const [activeTab, setActiveTab] = useState('useEffect');

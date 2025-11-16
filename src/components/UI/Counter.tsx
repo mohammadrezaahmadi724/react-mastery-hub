@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 
+// وظیفه: نمایش شمارنده تعاملی
+// props:
+// - initialValue: مقدار اولیه
+// - step: اندازه گام
+// قابلیت: افزایش، کاهش، بازنشانی
+
 interface CounterProps {
   initialValue: number;
   step?: number;

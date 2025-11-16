@@ -2,6 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 
+// وظیفه: صفحه اصلی و معرفی
+// بخش‌ها:
+// - هیرو section
+// - grid ویژگی‌ها
+// - آمار کلی
+// - خوشامدگویی به کاربر
+
 const Home: React.FC = () => {
   const { state } = useApp();
 

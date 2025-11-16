@@ -1,6 +1,12 @@
 import React, { createContext, useContext, useReducer, ReactNode } from 'react';
 import { AppState, User } from '../types';
 
+// وظیفه: مدیریت state全局 برنامه
+// ویژگی‌ها:
+// - استفاده از useReducer برای state پیچیده
+// - ارائه توابع برای به‌روزرسانی state
+// - مدیریت کاربر، تم، زبان و دروس تکمیل شده
+
 type AppAction =
   | { type: 'SET_USER'; payload: User | null }
   | { type: 'TOGGLE_THEME' }

@@ -1,4 +1,11 @@
 /* Card Styles */
+/* وظایف:
+ * - استایل‌های کامپوننت‌های خاص
+ * - button و card styles
+ * - example components styling
+ * - utility classes
+ */
+ 
 .card {
   background: var(--card-bg);
   border-radius: var(--border-radius);

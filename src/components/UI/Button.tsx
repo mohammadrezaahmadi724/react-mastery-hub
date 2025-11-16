@@ -1,5 +1,10 @@
 import React, { ButtonHTMLAttributes, ReactNode } from 'react';
 
+// وظیفه: کامپوننت دکمه استاندارد
+// variants: primary, secondary, success, danger, warning, info
+// sizes: sm, md, lg
+// features: outline, loading, icon
+
 type ButtonVariant = 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info';
 type ButtonSize = 'sm' | 'md' | 'lg';
 

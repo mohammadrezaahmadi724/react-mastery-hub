@@ -1,5 +1,12 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
+// وظیفه: آموزش useContext و مدیریت state سراسری
+// مثال‌ها:
+// - مدیریت کاربر
+// - تنظیمات برنامه
+// - سبد خرید
+// - کامپوننت‌های تو در تو
+
 // انواع (Types)
 interface User {
   id: number;

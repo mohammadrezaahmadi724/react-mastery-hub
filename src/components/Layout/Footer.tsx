@@ -1,5 +1,11 @@
 import React from 'react';
 
+// وظیفه: بخش پایینی برنامه
+// محتوا:
+// - اطلاعات پروژه
+// - لینک‌های مفید
+// - کپی رایت
+
 const Footer: React.FC = () => {
   return (
     <footer className="footer">

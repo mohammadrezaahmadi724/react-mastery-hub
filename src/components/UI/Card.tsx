@@ -1,5 +1,14 @@
 import React, { ReactNode } from 'react';
 
+
+// وظیفه: کامپوننت کارت قابل استفاده مجدد
+// props:
+// - title: عنوان کارت
+// - subtitle: زیرعنوان
+// - hover: эффекت hover
+// - shadow: سایه
+// - border: حاشیه
+
 interface CardProps {
   children: ReactNode;
   title?: string;

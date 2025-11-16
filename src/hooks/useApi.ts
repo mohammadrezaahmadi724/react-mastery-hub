@@ -1,5 +1,13 @@
 import { useState, useEffect, useCallback } from 'react';
 
+
+// وظایف:
+// - مدیریت API calls
+// - handling loading و error states
+// - قابلیت refetch
+// - abstraction از fetch logic
+
+
 interface ApiState<T> {
   data: T | null;
   loading: boolean;

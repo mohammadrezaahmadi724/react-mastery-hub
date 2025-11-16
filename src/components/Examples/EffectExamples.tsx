@@ -1,5 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+// وظیفه: آموزش useEffect و side effects
+// مثال‌ها:
+// - تایمر با cleanup
+// - شبیه‌سازی API call
+// - ردیابی اندازه پنجره
+// - ردیابی فشرده‌شدن کلیدها
 const EffectExamples: React.FC = () => {
   const [activeExample, setActiveExample] = useState('timer');
   const [data, setData] = useState<any[]>([]);

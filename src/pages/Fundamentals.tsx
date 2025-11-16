@@ -3,6 +3,12 @@ import { useApp } from '../context/AppContext';
 import Counter from '../components/UI/Counter';
 import StateExamples from '../components/Examples/StateExamples';
 
+// وظیفه: آموزش اصول پایه React
+// تب‌ها:
+// - کامپوننت‌ها (Counter examples)
+// - مدیریت state (StateExamples)
+// - لیست دروس
+
 const Fundamentals: React.FC = () => {
   const { dispatch } = useApp();
   const [activeTab, setActiveTab] = useState('components');
