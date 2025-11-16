@@ -13,7 +13,7 @@ const Sidebar: React.FC = () => {
     { path: '/projects', label: '💼 پروژه‌ها', icon: '💼' },
   ];
 
-  const progress = (state.completedLessons.length / 20) * 100; // فرض 20 درس
+  const progress = (state.completedLessons.length / 20) * 100;
 
   return (
     <aside className="sidebar">
